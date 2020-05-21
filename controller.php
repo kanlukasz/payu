@@ -19,8 +19,8 @@ $create_form = [
 	'amount' => $transaction_data['price'] * 100,
 	'desc' => $transaction_data['title'],
 	'client_ip' => $_SERVER['REMOTE_ADDR'],
-	'pos_id' => '145227',
-	'pos_auth_key' => '145227',
+	'pos_id' => '387178',
+	'pos_auth_key' => 'GNz2uZQ',
 	'session_id' => time() . mt_rand(),
 	'ts' => time()
 ];

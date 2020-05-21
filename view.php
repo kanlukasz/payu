@@ -20,7 +20,7 @@
 		<input type="text" name="session_id" value="<?php print $create_form['session_id']; ?>"><br>
 		<input type="text" name="client_ip" value="<?php print $create_form['client_ip']; ?>"><br>
 		<input type="text" name="ts" value="<?php print $create_form['ts']; ?>"><br>
-		<input type="text" name="sig" value="<?php print payu_signature($create_form, '13a980d4f851f3d9a1cfc792fb1f5e50'); ?>"><br>
+		<input type="text" name="sig" value="<?php print payu_signature($create_form, '923134bfb99dc1b568f47c5ecb014393'); ?>"><br>
 		<input type="submit" value="Zapłać poprzez PayU"><br>
 	</form>
 </body>
